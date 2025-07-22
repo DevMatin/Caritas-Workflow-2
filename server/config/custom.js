@@ -97,9 +97,10 @@ module.exports.custom = {
 };
 
   webhooks: [
-  {
-    url: 'http://167.235.151.72:5678/webhook-test/fa729d3e-c9a7-4e99-9f87-6d250dfc025c',
-    events: ['cardCreate'],
-    accessToken: supergeheim123
-  }
-]
+    {
+      url: 'http://167.235.151.72:5678/webhook/fa729d3e-c9a7-4e99-9f87-6d250dfc025c',
+      events: ['cardCreate'],
+      accessToken: 'supergeheim123'
+    }
+  ]
+};
