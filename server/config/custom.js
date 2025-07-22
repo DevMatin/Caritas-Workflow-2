@@ -95,3 +95,11 @@ module.exports.custom = {
   smtpFrom: process.env.SMTP_FROM,
   smtpTlsRejectUnauthorized: process.env.SMTP_TLS_REJECT_UNAUTHORIZED !== 'false',
 };
+
+  webhooks: [
+  {
+    url: 'http://167.235.151.72:5678/webhook/fa729d3e-c9a7-4e99-9f87-6d250dfc025c',
+    events: ['cardCreate'],
+    accessToken: process.env.N8N_ACCESSTOKEN
+  }
+]
