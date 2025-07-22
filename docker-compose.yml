@@ -17,6 +17,7 @@ services:
       - BASE_URL=http://167.235.151.72:3000
       - DATABASE_URL=postgresql://postgres@postgres/planka
       - SIGNUP_DISABLED=false
+      - N8N_ACCESSTOKEN=supergeheim123
 
       # Optionally store the database password in secrets:
       # - DATABASE_URL=postgresql://postgres:$${DATABASE_PASSWORD}@postgres/planka
