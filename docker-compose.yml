@@ -18,7 +18,7 @@ services:
       - DATABASE_URL=postgresql://postgres@postgres/planka
       - SIGNUP_DISABLED=false
       - N8N_ACCESSTOKEN=supergeheim123
-      - WEBHOOKS=[{\"url\":\"http://n8n:5678/webhook/fa729d3e-c9a7-4e99-9f87-6d250dfc025c\",\"events\":[\"cardCreate\"],\"accessToken\":\"supergeheim123\"}]
+      - WEBHOOKS=[{\"url\":\"http://167.235.151.72:5678/webhook/fa729d3e-c9a7-4e99-9f87-6d250dfc025c\",\"events\":[\"cardCreate\"],\"accessToken\":\"supergeheim123\"}]
 
 
       # Optionally store the database password in secrets:
