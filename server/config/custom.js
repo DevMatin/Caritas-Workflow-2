@@ -100,6 +100,6 @@ module.exports.custom = {
   {
     url: 'http://167.235.151.72:5678/webhook-test/fa729d3e-c9a7-4e99-9f87-6d250dfc025c',
     events: ['cardCreate'],
-    accessToken: process.env.N8N_ACCESSTOKEN
+    accessToken: supergeheim123
   }
 ]
